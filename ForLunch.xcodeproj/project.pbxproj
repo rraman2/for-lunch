@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B001 /* ForLunchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* ForLunchApp.swift */; };
+		B002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* ContentView.swift */; };
+		B003 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* MenuView.swift */; };
+		B004 /* SchoolPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* SchoolPickerView.swift */; };
+		B005 /* SupportedState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* SupportedState.swift */; };
+		B006 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* School.swift */; };
+		B007 /* MenuModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* MenuModels.swift */; };
+		B008 /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* MenuService.swift */; };
+		B009 /* SchoolSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* SchoolSearchService.swift */; };
+		B010 /* SchoolStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010 /* SchoolStorage.swift */; };
+		B011 /* schools.json in Resources */ = {isa = PBXBuildFile; fileRef = F011 /* schools.json */; };
+		B012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F013 /* Assets.xcassets */; };
+		B013 /* MenuDatabaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014 /* MenuDatabaseModels.swift */; };
+		B014 /* MenuDatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015 /* MenuDatabaseService.swift */; };
+		B015 /* menus.json in Resources */ = {isa = PBXBuildFile; fileRef = F016 /* menus.json */; };
+		B016 /* RemoteMenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F017 /* RemoteMenuService.swift */; };
+		B017 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018 /* ImagePicker.swift */; };
+		B018 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F019 /* DocumentPicker.swift */; };
+		B019 /* SchoolsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020 /* SchoolsListView.swift */; };
+		B020 /* MenuSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F021 /* MenuSheetView.swift */; };
+		B021 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F022 /* DesignTokens.swift */; };
+		B022 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023 /* Event.swift */; };
+		B023 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024 /* EventCardView.swift */; };
+		B024 /* EventsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025 /* EventsSectionView.swift */; };
+		B025 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F026 /* CalendarView.swift */; };
+		B026 /* DayDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F027 /* DayDetailSheet.swift */; };
+		B027 /* EventsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F028 /* EventsService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F001 /* ForLunchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForLunchApp.swift; sourceTree = "<group>"; };
+		F002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F003 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F004 /* SchoolPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolPickerView.swift; sourceTree = "<group>"; };
+		F005 /* SupportedState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportedState.swift; sourceTree = "<group>"; };
+		F006 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		F007 /* MenuModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModels.swift; sourceTree = "<group>"; };
+		F008 /* MenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuService.swift; sourceTree = "<group>"; };
+		F009 /* SchoolSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSearchService.swift; sourceTree = "<group>"; };
+		F010 /* SchoolStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolStorage.swift; sourceTree = "<group>"; };
+		F011 /* schools.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schools.json; sourceTree = "<group>"; };
+		F012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F014 /* MenuDatabaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDatabaseModels.swift; sourceTree = "<group>"; };
+		F015 /* MenuDatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDatabaseService.swift; sourceTree = "<group>"; };
+		F016 /* menus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menus.json; sourceTree = "<group>"; };
+		F017 /* RemoteMenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteMenuService.swift; sourceTree = "<group>"; };
+		F018 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		F019 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		F020 /* SchoolsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsListView.swift; sourceTree = "<group>"; };
+		F021 /* MenuSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSheetView.swift; sourceTree = "<group>"; };
+		F022 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		F023 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F024 /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
+		F025 /* EventsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsSectionView.swift; sourceTree = "<group>"; };
+		F026 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F027 /* DayDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailSheet.swift; sourceTree = "<group>"; };
+		F028 /* EventsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsService.swift; sourceTree = "<group>"; };
+		T001 /* ForLunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForLunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		P001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		G001 = {
+			isa = PBXGroup;
+			children = (
+				G002 /* ForLunch */,
+				G003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		G002 /* ForLunch */ = {
+			isa = PBXGroup;
+			children = (
+				F001 /* ForLunchApp.swift */,
+				G004 /* Models */,
+				G005 /* Views */,
+				G006 /* Services */,
+				G008 /* Helpers */,
+				G007 /* Resources */,
+				F013 /* Assets.xcassets */,
+				F012 /* Info.plist */,
+			);
+			path = ForLunch;
+			sourceTree = "<group>";
+		};
+		G003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				T001 /* ForLunch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		G004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F005 /* SupportedState.swift */,
+				F006 /* School.swift */,
+				F007 /* MenuModels.swift */,
+				F014 /* MenuDatabaseModels.swift */,
+				F023 /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		G005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F002 /* ContentView.swift */,
+				F003 /* MenuView.swift */,
+				F004 /* SchoolPickerView.swift */,
+				F020 /* SchoolsListView.swift */,
+				F021 /* MenuSheetView.swift */,
+				F024 /* EventCardView.swift */,
+				F025 /* EventsSectionView.swift */,
+				F026 /* CalendarView.swift */,
+				F027 /* DayDetailSheet.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		G006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F008 /* MenuService.swift */,
+				F009 /* SchoolSearchService.swift */,
+				F010 /* SchoolStorage.swift */,
+				F015 /* MenuDatabaseService.swift */,
+				F017 /* RemoteMenuService.swift */,
+				F028 /* EventsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		G007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F011 /* schools.json */,
+				F016 /* menus.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		G008 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F022 /* DesignTokens.swift */,
+				F018 /* ImagePicker.swift */,
+				F019 /* DocumentPicker.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		N001 /* ForLunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C003 /* Build configuration list for PBXNativeTarget "ForLunch" */;
+			buildPhases = (
+				S001 /* Sources */,
+				R001 /* Resources */,
+				P001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForLunch;
+			productName = ForLunch;
+			productReference = T001 /* ForLunch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		Q001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+			};
+			buildConfigurationList = C001 /* Build configuration list for PBXProject "ForLunch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = G001;
+			productRefGroup = G003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				N001 /* ForLunch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		R001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B011 /* schools.json in Resources */,
+				B012 /* Assets.xcassets in Resources */,
+				B015 /* menus.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B001 /* ForLunchApp.swift in Sources */,
+				B002 /* ContentView.swift in Sources */,
+				B003 /* MenuView.swift in Sources */,
+				B004 /* SchoolPickerView.swift in Sources */,
+				B005 /* SupportedState.swift in Sources */,
+				B006 /* School.swift in Sources */,
+				B007 /* MenuModels.swift in Sources */,
+				B008 /* MenuService.swift in Sources */,
+				B009 /* SchoolSearchService.swift in Sources */,
+				B010 /* SchoolStorage.swift in Sources */,
+				B013 /* MenuDatabaseModels.swift in Sources */,
+				B014 /* MenuDatabaseService.swift in Sources */,
+				B016 /* RemoteMenuService.swift in Sources */,
+				B017 /* ImagePicker.swift in Sources */,
+				B018 /* DocumentPicker.swift in Sources */,
+				B019 /* SchoolsListView.swift in Sources */,
+				B020 /* MenuSheetView.swift in Sources */,
+				B021 /* DesignTokens.swift in Sources */,
+				B022 /* Event.swift in Sources */,
+				B023 /* EventCardView.swift in Sources */,
+				B024 /* EventsSectionView.swift in Sources */,
+				B025 /* CalendarView.swift in Sources */,
+				B026 /* DayDetailSheet.swift in Sources */,
+				B027 /* EventsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TWCRTS646;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ForLunch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.forlunch.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USA_SCHOOL_MENU_BASE_URL = "http://192.168.86.37:3000";
+			};
+			name = Debug;
+		};
+		C202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TWCRTS646;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ForLunch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.forlunch.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USA_SCHOOL_MENU_BASE_URL = "http://192.168.86.37:3000";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C001 /* Build configuration list for PBXProject "ForLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C101 /* Debug */,
+				C102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C003 /* Build configuration list for PBXNativeTarget "ForLunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C201 /* Debug */,
+				C202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = Q001 /* Project object */;
+}

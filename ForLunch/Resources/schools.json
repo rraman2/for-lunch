@@ -1,0 +1,146 @@
+[
+  {
+    "id": "sterling-washington-co",
+    "name": "Washington Elementary School",
+    "districtName": "Sterling Public Schools",
+    "stateCode": "CO",
+    "nutrisliceDistrictSlug": "sterlingpublicschools",
+    "nutrisliceSchoolSlug": "washington-elementary-school"
+  },
+  {
+    "id": "newburyport-ma",
+    "name": "Newburyport Public Schools",
+    "districtName": "Newburyport Public Schools",
+    "stateCode": "MA",
+    "nutrisliceDistrictSlug": "newburyport",
+    "nutrisliceSchoolSlug": "newburyport-high-school"
+  },
+  {
+    "id": "bridge-rayn-ma",
+    "name": "Bridgewater-Raynham Regional",
+    "districtName": "Bridgewater-Raynham Regional School District",
+    "stateCode": "MA",
+    "nutrisliceDistrictSlug": "bridge-rayn",
+    "nutrisliceSchoolSlug": "bridgewater-raynham-regional-high-school"
+  },
+  {
+    "id": "dcsd-co",
+    "name": "Douglas County School District",
+    "districtName": "Douglas County School District",
+    "stateCode": "CO",
+    "nutrisliceDistrictSlug": "dcsd",
+    "nutrisliceSchoolSlug": "douglas-county-school-district"
+  },
+  {
+    "id": "cusd-ca",
+    "name": "Clovis Unified School District",
+    "districtName": "Clovis Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": "cusd",
+    "nutrisliceSchoolSlug": "clovis-unified"
+  },
+  {
+    "id": "plymouth-ma",
+    "name": "Plymouth Public Schools",
+    "districtName": "Plymouth Public Schools",
+    "stateCode": "MA",
+    "nutrisliceDistrictSlug": "plymouth",
+    "nutrisliceSchoolSlug": "plymouth"
+  },
+  {
+    "id": "walnut-grove-pleasanton-ca",
+    "name": "Walnut Grove Elementary School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "alisal-pleasanton-ca",
+    "name": "Alisal Elementary School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "donlon-pleasanton-ca",
+    "name": "Donlon Elementary School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "fairlands-pleasanton-ca",
+    "name": "Fairlands Elementary School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "hearst-pleasanton-ca",
+    "name": "Hearst Elementary School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "lydiksen-pleasanton-ca",
+    "name": "Lydiksen Elementary School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "mohr-pleasanton-ca",
+    "name": "Mohr Elementary School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "hart-middle-pleasanton-ca",
+    "name": "Hart Middle School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "harvest-park-middle-pleasanton-ca",
+    "name": "Harvest Park Middle School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "pleasanton-middle-ca",
+    "name": "Pleasanton Middle School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "amador-valley-high-pleasanton-ca",
+    "name": "Amador Valley High School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  },
+  {
+    "id": "foothill-high-pleasanton-ca",
+    "name": "Foothill High School",
+    "districtName": "Pleasanton Unified School District",
+    "stateCode": "CA",
+    "nutrisliceDistrictSlug": null,
+    "nutrisliceSchoolSlug": null
+  }
+]

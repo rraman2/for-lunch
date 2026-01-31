@@ -1,0 +1,13 @@
+{
+  "name": "usa-school-menu",
+  "version": "1.0.0",
+  "description": "API and database of US school lunch/breakfast menus for the For Lunch app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
